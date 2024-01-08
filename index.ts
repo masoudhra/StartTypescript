@@ -1,8 +1,12 @@
-let myVar = "this is first value";
-const username = "Masoud Ramezani"
+let BlogTitle : string = "this is first blog about typescript"
+console.log(typeof BlogTitle);
+let blogLikesCount = 90;
+console.log(typeof blogLikesCount);
+let isActive = true;
+console.log(typeof isActive);
 
-console.log(myVar);
-myVar = "this is myVar value"
-console.log(myVar)
-myVar = "30"
-console.log(myVar)
+let user : (typeof BlogTitle)
+
+user = "Masoud"
+let str : string = `my blog has ${blogLikesCount} likes`
+console.log(str)
