@@ -1,4 +1,4 @@
-// Anonymus Types
+// Anonymus Typess
 let products: Array<{
   title: string;
   img: string;
