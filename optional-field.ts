@@ -1,7 +1,8 @@
 function sayHello(firstName?: string, lastName?: string):void {
   console.log(`Hi ${firstName || "New User"} ${lastName || ''} welcome to our website.`);
 }
-sayHello();
+sayHello("masoud", "Ramezani");
+
 let blog: {
     title: string,
     test: string,
